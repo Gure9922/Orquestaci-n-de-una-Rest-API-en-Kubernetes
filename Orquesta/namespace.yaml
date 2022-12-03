@@ -1,0 +1,8 @@
+# Configuración del namespace
+
+apiVersion: v1          # Versión de la Api
+kind: Namespace         # Tipo de Objeto: Espacio de nombres
+metadata:
+    name: edgar         # Nombre del espacio
+    labels:
+      tipo: orquesta    # Etiqueta de tipo
